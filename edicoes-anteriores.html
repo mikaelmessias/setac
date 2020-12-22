@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 
@@ -12,38 +13,39 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Nunito:300" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/estilo.css" rel="stylesheet">
-    
-    <script>
-		function switch2014(link){
+
+	<script>
+		function switch2014(link) {
 			document.getElementById('biggerPhoto2014').src = link;
 		}
-		function switch2015(link){
+		function switch2015(link) {
 			document.getElementById('biggerPhoto2015').src = link;
 		}
-		function switch2016(link){
+		function switch2016(link) {
 			document.getElementById('biggerPhoto2016').src = link;
 		}
-    function switch2017(link){
-      document.getElementById('biggerPhoto2017').src = link;
-    }
-    function switch2018_1(link){
-      document.getElementById('biggerPhoto2018_1').src = link;
-    }
-    function switch2018_2(link){
-      document.getElementById('biggerPhoto2018_2').src = link;
-    }
-    function switch2018_3(link){
-      document.getElementById('biggerPhoto2018_3').src = link;
-    }
+		function switch2017(link) {
+			document.getElementById('biggerPhoto2017').src = link;
+		}
+		function switch2018_1(link) {
+			document.getElementById('biggerPhoto2018_1').src = link;
+		}
+		function switch2018_2(link) {
+			document.getElementById('biggerPhoto2018_2').src = link;
+		}
+		function switch2018_3(link) {
+			document.getElementById('biggerPhoto2018_3').src = link;
+		}
 	</script>
 </head>
 
 <body onload="contagemRegressiva()">
 	<!-- NAVBAR FIXADO AO TOPO -->
-	<nav class="navbar navbar-default navbar-fixed-top" id="nav-fixa">
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav-fixa" style="padding: 10px 0;">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
 					<span class="sr-only">Alternar navegação</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -51,61 +53,20 @@
 				</button>
 				<a id="logo-setac" class="navbar-brand" href="#">SeTAC²</a>
 			</div>
-      <div id="navbar" class="navbar-collapse collapse navbar-right">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Página Inicial</a></li>
-          <li><a href="https://www.even3.com.br/setacsh" target="_blank">Inscrições</a></li>
-          <li><a href="edicoes-anteriores.html#topo-contagem">Edições Anteriores</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
+			<div id="navbar" class="navbar-collapse collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Página Inicial</a></li>
+					<li><a href="https://www.even3.com.br/setacsh">Inscrições</a></li>
+					<li><a href="programacao.html">Programação</a></li>
+					<li><a href="edicoes-anteriores.html">Edições Anteriores</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
 		</div>
 	</nav>
 
-	<header id="topo" class="container-fluid">
-	</header>
-
-	<div class="header-bloco container">
-		<div class="row">
-			<div class="col-md-12">
-				<img style="width:250px;" src="img/logo-c.png">
-				<h2 class="header-titulo">VI Semana Tecnológica Acadêmica de Ciência da Computação</h2>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<span class="col-md-12"><a href="https://www.even3.com.br/setacsh/" class="btn btn-box" role="button" target="_blank">Inscrições</a></span>
-		</div>
-	</div>
-
-	<div id="topo-contagem" class="container-fluid">
-		<div class="row">	
-			<div class="col-md-12">
-				<h2>CONTAGEM REGRESSIVA PARA V S<span style="text-transform:lowercase;">e</span>TAC²</h2>
-			</div>
-		</div>
-
-		<div class="row">	
-			<div class="col-md-3 ">
-				<h2 id="cont-dias"></h2>
-				<p>dias</p>
-			</div>
-			<div class="col-md-3">
-				<h2 id="cont-horas"></h2>
-				<p>horas</p>
-			</div>
-			<div class="col-md-3">
-				<h2 id="cont-minutos"></h2>
-				<p>minutos</p>
-			</div>
-			<div class="col-md-3">
-				<h2 id="cont-segundos"></h2>
-				<p>segundos</p>
-			</div>
-		</div>
-	</div>
-
 	<!-- CONTEÚDO DO SITE -->
-	<section class="container" id="conteudo">
+	<section class="container" id="conteudo" style="margin-top: 80px;">
 		<div id="feira-prog" class="modal fade" role="dialog">
 			<div class="modal-dialog modal-content modal-body">
 				<img src="img/feira-prog.png">
@@ -128,14 +89,14 @@
 				<h2><span class="tag tag-year">2014</span> I S<span style="text-transform:lowercase;">e</span>TAC²</h2>
 			</div>
 		</div>
-		
+
 		<br>
 
 		<div class="row" id="gallery2014">
 			<div class="col-md-12 ant-galeria">
 				<div class="row">
-					<div class="col-md-6">						
-						<img class="biggerPhoto"  id="biggerPhoto2014" src="img/galeria/2014/001.jpg">
+					<div class="col-md-6">
+						<img class="biggerPhoto" id="biggerPhoto2014" src="img/galeria/2014/001.jpg">
 					</div>
 					<div class="col-md-6">
 						<div class="row">
@@ -192,9 +153,9 @@
 							</div>
 						</div>
 					</div>
-				</div>							
-			</div>		
-		</div>		
+				</div>
+			</div>
+		</div>
 
 		<hr>
 
@@ -202,8 +163,8 @@
 			<div id="ant-bloco2" class="text-justify col-md-12">
 				<h2><span class="tag tag-year">2015</span> II S<span style="text-transform:lowercase;">e</span>TAC²</h2>
 			</div>
-		</div>	
-		
+		</div>
+
 		<br>
 
 		<div class="row">
@@ -267,8 +228,8 @@
 					<div class="col-md-6">
 						<img src="img/galeria/2015/001.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2015">
 					</div>
-				</div>							
-			</div>		
+				</div>
+			</div>
 		</div>
 
 		<hr>
@@ -284,8 +245,8 @@
 					</a>
 				</h2>
 			</div>
-		</div>	
-		
+		</div>
+
 		<br>
 
 		<div class="row">
@@ -349,305 +310,305 @@
 							</div>
 						</div>
 					</div>
-				</div>							
-			</div>		
+				</div>
+			</div>
 		</div>
 
-    <hr>
+		<hr>
 
-    <div class="row">
-      <div id="ant-bloco4" class="text-justify col-md-6">
-        <h2><span class="tag tag-year">2017</span> IV S<span style="text-transform:lowercase;">e</span>TAC²</h2>
-      </div>
-      <div id="ant-anais2" class="text-justify col-md-6">
-        <h2>
-          <a href="anais2017.pdf">
-            <span class="tag tag-anais">Anais 2017</span>
-          </a>
-        </h2>
-      </div>  
-    </div>  
-    
-    <br>
+		<div class="row">
+			<div id="ant-bloco4" class="text-justify col-md-6">
+				<h2><span class="tag tag-year">2017</span> IV S<span style="text-transform:lowercase;">e</span>TAC²</h2>
+			</div>
+			<div id="ant-anais2" class="text-justify col-md-6">
+				<h2>
+					<a href="anais2017.pdf">
+						<span class="tag tag-anais">Anais 2017</span>
+					</a>
+				</h2>
+			</div>
+		</div>
 
-    <div class="row">
-      <div class="col-md-12 ant-galeria">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/001.jpg');">
-                  <img src="img/galeria/2017/001.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/002.jpg');">
-                  <img src="img/galeria/2017/002.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/003.jpg');">
-                  <img src="img/galeria/2017/003.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/004.jpg');">
-                  <img src="img/galeria/2017/004.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/005.jpg');">
-                  <img src="img/galeria/2017/005.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/006.jpg');">
-                  <img src="img/galeria/2017/006.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/007.jpg');">
-                  <img src="img/galeria/2017/007.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/008.jpg');">
-                  <img src="img/galeria/2017/008.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/009.jpg');">
-                  <img src="img/galeria/2017/009.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="img/galeria/2017/001.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2017">
-          </div>
-        </div>     
-      </div>    
-    </div>
+		<br>
 
-    <hr>
+		<div class="row">
+			<div class="col-md-12 ant-galeria">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/001.jpg');">
+									<img src="img/galeria/2017/001.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/002.jpg');">
+									<img src="img/galeria/2017/002.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/003.jpg');">
+									<img src="img/galeria/2017/003.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/004.jpg');">
+									<img src="img/galeria/2017/004.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/005.jpg');">
+									<img src="img/galeria/2017/005.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/006.jpg');">
+									<img src="img/galeria/2017/006.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/007.jpg');">
+									<img src="img/galeria/2017/007.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/008.jpg');">
+									<img src="img/galeria/2017/008.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2017('img/galeria/2017/009.jpg');">
+									<img src="img/galeria/2017/009.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img src="img/galeria/2017/001.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2017">
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="row">
-      <div id="ant-bloco4" class="text-justify col-md-6">
-        <h2><span class="tag tag-year">2018</span> V S<span style="text-transform:lowercase;">e</span>TAC²</h2>
-      </div>
-      <div id="ant-anais2" class="text-justify col-md-6">
-        <h2>
-          <a href="anais2018.pdf">
-            <span class="tag tag-anais">Anais 2018</span>
-          </a>
-        </h2>
-      </div>  
-    </div>  
-    
-    <br>
+		<hr>
 
-    <div class="row">
-      <div class="col-md-12 ant-galeria">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/galeria/2018/001.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2018_1">
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/001.jpg');">
-                  <img src="img/galeria/2018/001.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/002.jpg');">
-                  <img src="img/galeria/2018/002.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/003.jpg');">
-                  <img src="img/galeria/2018/003.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/004.jpg');">
-                  <img src="img/galeria/2018/004.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/005.jpg');">
-                  <img src="img/galeria/2018/005.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/006.jpg');">
-                  <img src="img/galeria/2018/006.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/007.jpg');">
-                  <img src="img/galeria/2018/007.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/008.jpg');">
-                  <img src="img/galeria/2018/008.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/009.jpg');">
-                  <img src="img/galeria/2018/009.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+		<div class="row">
+			<div id="ant-bloco4" class="text-justify col-md-6">
+				<h2><span class="tag tag-year">2018</span> V S<span style="text-transform:lowercase;">e</span>TAC²</h2>
+			</div>
+			<div id="ant-anais2" class="text-justify col-md-6">
+				<h2>
+					<a href="anais2018.pdf">
+						<span class="tag tag-anais">Anais 2018</span>
+					</a>
+				</h2>
+			</div>
+		</div>
 
-        <br>
+		<br>
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/010.jpg');">
-                  <img src="img/galeria/2018/010.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/011.jpg');">
-                  <img src="img/galeria/2018/011.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/012.jpg');">
-                  <img src="img/galeria/2018/012.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/013.jpg');">
-                  <img src="img/galeria/2018/013.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/014.jpg');">
-                  <img src="img/galeria/2018/014.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/015.jpg');">
-                  <img src="img/galeria/2018/015.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/016.jpg');">
-                  <img src="img/galeria/2018/016.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/017.jpg');">
-                  <img src="img/galeria/2018/017.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/018.jpg');">
-                  <img src="img/galeria/2018/018.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-          </div>
+		<div class="row">
+			<div class="col-md-12 ant-galeria">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/galeria/2018/001.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2018_1">
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/001.jpg');">
+									<img src="img/galeria/2018/001.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/002.jpg');">
+									<img src="img/galeria/2018/002.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/003.jpg');">
+									<img src="img/galeria/2018/003.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/004.jpg');">
+									<img src="img/galeria/2018/004.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/005.jpg');">
+									<img src="img/galeria/2018/005.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/006.jpg');">
+									<img src="img/galeria/2018/006.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/007.jpg');">
+									<img src="img/galeria/2018/007.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/008.jpg');">
+									<img src="img/galeria/2018/008.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_1('img/galeria/2018/009.jpg');">
+									<img src="img/galeria/2018/009.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 
-          <div class="col-md-6">
-            <img src="img/galeria/2018/017.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2018_2">
-          </div>
-        </div>
+				<br>
 
-        <br>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/010.jpg');">
+									<img src="img/galeria/2018/010.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/011.jpg');">
+									<img src="img/galeria/2018/011.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/012.jpg');">
+									<img src="img/galeria/2018/012.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/013.jpg');">
+									<img src="img/galeria/2018/013.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/014.jpg');">
+									<img src="img/galeria/2018/014.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/015.jpg');">
+									<img src="img/galeria/2018/015.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/016.jpg');">
+									<img src="img/galeria/2018/016.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/017.jpg');">
+									<img src="img/galeria/2018/017.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_2('img/galeria/2018/018.jpg');">
+									<img src="img/galeria/2018/018.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+					</div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/galeria/2018/019.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2018_3">
-          </div>
+					<div class="col-md-6">
+						<img src="img/galeria/2018/017.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2018_2">
+					</div>
+				</div>
 
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/019.jpg');">
-                  <img src="img/galeria/2018/019.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/020.jpg');">
-                  <img src="img/galeria/2018/020.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/021.jpg');">
-                  <img src="img/galeria/2018/021.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/022.jpg');">
-                  <img src="img/galeria/2018/022.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/023.jpg');">
-                  <img src="img/galeria/2018/023.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/024.jpg');">
-                  <img src="img/galeria/2018/024.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/025.jpg');">
-                  <img src="img/galeria/2018/025.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/026.jpg');">
-                  <img src="img/galeria/2018/026.jpg" alt="/">
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/027.jpg');">
-                  <img src="img/galeria/2018/027.jpg" alt="/">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>    
-    </div>						
+				<br>
+
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/galeria/2018/019.jpg" alt="/" class="biggerPhoto" id="biggerPhoto2018_3">
+					</div>
+
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/019.jpg');">
+									<img src="img/galeria/2018/019.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/020.jpg');">
+									<img src="img/galeria/2018/020.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/021.jpg');">
+									<img src="img/galeria/2018/021.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/022.jpg');">
+									<img src="img/galeria/2018/022.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/023.jpg');">
+									<img src="img/galeria/2018/023.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/024.jpg');">
+									<img src="img/galeria/2018/024.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/025.jpg');">
+									<img src="img/galeria/2018/025.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/026.jpg');">
+									<img src="img/galeria/2018/026.jpg" alt="/">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="javascript:void(0)" onclick="switch2018_3('img/galeria/2018/027.jpg');">
+									<img src="img/galeria/2018/027.jpg" alt="/">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="footer" id="rodape">
-	    <div class="container">
+		<div class="container">
 			<div class="row">
 				<div id="ftbox1" class="col-md-6">
 					<h2 class="titulo-rodape">Informações</h2>
@@ -655,12 +616,12 @@
 					<p><strong>Data:</strong> 27, 28 e 29 de Agosto de 2018.</p>
 					<p><strong>Local:</strong> UTFPR - Campus Santa Helena</p>
 					<p><strong>Telefone:</strong> +55 (45) 3268-8802</p>
-						<p><strong>Email:</strong> eventos-cc-sh@utfpr.edu.br</p>
+					<p><strong>Email:</strong> eventos-cc-sh@utfpr.edu.br</p>
 				</div>
 				<div id="ftbox2" class="col-md-3">
 					<h2 class="titulo-rodape">Apoio</h2>
-					
-						<img style="width: 150px" src="img/logo-cacic.png" alt="/">
+
+					<img style="width: 150px" src="img/logo-cacic.png" alt="/">
 				</div>
 				<div id="ftbox3" class="col-md-3">
 					<section id="logo-img" class="row">
@@ -668,19 +629,20 @@
 					</section>
 				</div>
 			</div>
-	        <hr>
-	        <div class="row">
-	        	<div id="ft-endereco" class="col-md-12">
-	        		<p><strong>Universidade Tecnológica Federal do Paraná - Campus Santa Helena</strong>
-            		<p>Prolongamento da Rua Cerejeira, s/n - CEP 85892-000 - Santa Helena - PR</p>	
-	        	</div>
-	        </div>
-	    </div>
+			<hr>
+			<div class="row">
+				<div id="ft-endereco" class="col-md-12">
+					<p><strong>Universidade Tecnológica Federal do Paraná - Campus Santa Helena</strong>
+					<p>Prolongamento da Rua Cerejeira, s/n - CEP 85892-000 - Santa Helena - PR</p>
+				</div>
+			</div>
+		</div>
 	</footer>
 
-<!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts-setac.js"></script>
+	<!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts-setac.js"></script>
 </body>
+
 </html>
